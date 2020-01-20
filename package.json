@@ -1,0 +1,19 @@
+{
+  "name": "@david-vloedman/mymongomodel",
+  "version": "1.0.0",
+  "description": "A generic crud model for mongoDB",
+  "main": "mongoModel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-vloedman-401-advanced-javascript/myMongoModel.git"
+  },
+  "author": "David Vloedman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/david-vloedman-401-advanced-javascript/myMongoModel/issues"
+  },
+  "homepage": "https://github.com/david-vloedman-401-advanced-javascript/myMongoModel#readme"
+}
