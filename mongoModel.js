@@ -27,7 +27,7 @@ class Model {
    * @param {object} record
    * @returns {function}
    */
-  create(record) {
+  post(record) {
     if (typeof record === 'object') {
       let newRecord = new this.schema(record);
       return newRecord.save();
@@ -42,7 +42,7 @@ class Model {
    * @param {object} record
    * @returns {function}
    */
-  update(_id, record) {
+  put(_id, record) {
    
     if (_id && record) {      
       return this.schema.findByIdAndUpdate(_id, record, { new: true });
